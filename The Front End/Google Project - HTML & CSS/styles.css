@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+footer {
+    background-color: rgb(231, 231, 231);
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  #ulno1{
+    padding-left: 12px;
+  }
+  #ulno2{
+    padding-right: 12px;
+  }
+
+  li {
+    display: inline;
+ }
+.lino1{
+    float: left;
+}
+  .lino2{
+    float: right;
+  }
+  li a {
+    color:black;
+    display: block;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+  #signinbutton{
+    display: inline-block;
+      background-color: #4285f4;
+      border: 1px solid #4285f4;
+      line-height: 4px;
+      font-weight: bold;
+      padding: 0 6px;
+      margin-top: 7px;
+  }
+  #signin{
+    color: white;
+  }
+  form {
+    padding-top:10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#logowrap{
+    min-width: 100%;
+    display: block;
+    height:auto;
+   text-align: center;
+   padding-left: 3%;
+}
+
+  input {
+    min-width: 45%;
+    height: 35px;
+    margin-top: 30px;
+  }
+ input[placeholder]{
+    line-height:30px;
+    font-size: 18px;
+    border: solid lightgray 2px;
+    border-radius: 30px;
+    padding-left: 25px;
+  }
+  
+
+#logo {
+    height: 92px;
+    width: 272px;
+}
+
+#buttons{
+    padding: 30px;
+    
+}
+
+.buttons{
+    margin:0 10px;
+    padding: 0 16px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
