@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
+
+<head>
+    <meta charset="utf-8" />
     <title>Strings: Task 3</title>
     <style>
-      p {
-        color: purple;
-        margin: 0.5em 0;
-      }
+        p {
+            color: purple;
+            margin: 0.5em 0;
+        }
 
-      * {
-        box-sizing: border-box;
-      }
+        * {
+            box-sizing: border-box;
+        }
     </style>
-    <link rel="stylesheet" href="../styles.css" />
-  </head>
 
-  <body>
+</head>
+
+<body>
 
     <section class="preview">
 
@@ -24,11 +25,17 @@
 
     </section>
 
-  </body>
-  <script>
+</body>
+<script>
     let quote = 'I dO nOT lIke gREen eGgS anD HAM';
 
     // Add your code here
+
+    let lower = quote.toLowerCase();
+    let firstLetter = lower.slice(0, 1);
+    let fixedQuote = lower.replace(firstLetter, firstLetter.toUpperCase());
+    fixedQuote = fixedQuote.replace("green eggs and ham", "beans and sausage");
+    let finalQuote = fixedQuote + ".";
 
     // Don't edit the code below here!
 
@@ -41,6 +48,6 @@
 
     section.appendChild(para1);
     section.appendChild(para2);
-  </script>
+</script>
 
 </html>

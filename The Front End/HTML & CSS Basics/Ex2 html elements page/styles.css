@@ -1,0 +1,128 @@
+body{
+    max-width:2000px;
+    padding: 1% 2%;
+    font-family: cursive;
+    color:#4a5663;
+    background-color: #dc143c	;
+    
+}
+
+#introduction {
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top:3%;
+    margin-bottom:3%;
+    padding: 0 5%;
+    text-align: justify;
+}
+#main {
+    background-color: white;
+    padding: 3%;
+    margin: 2% 1%;
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: lighter;
+    color:black;
+}
+h2{
+    max-width: 1800px;
+    padding:2% 6%;
+    font-family: fantasy;
+    font-weight: lighter;
+    color:black;
+}
+
+h3{
+    font-size:140%;
+    font-family: fantasy;
+    font-weight: lighter;
+    color:black;
+    padding: 3% 0;
+    
+}
+.right{
+    margin:0 2%;
+}
+
+#stratpic{
+    margin-right: 2%;
+    border: 3px solid white;
+    border-radius: 1%;
+}
+
+  div#stratocaster {
+        max-width: 1500px;
+        margin: 0 auto;
+        margin-top:3%;
+        margin-bottom:3%;
+        padding: 0 5%;
+        text-align: justify;
+}
+
+#telepic{
+    margin-left: 2%;
+    padding:1%;
+    border: 3px solid white;
+    border-radius: 1%;
+    
+}
+
+div#telecaster {
+    max-width: 1500px;
+    margin: 03% auto;
+    padding: 0 5%;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+
+#jmpic{
+    margin-right: 2%;
+    border: 3px solid white;
+    border-radius: 1%;
+}
+
+div#jazzmaster {
+    margin: 0 auto;
+    margin-top:3%;
+    margin-bottom:3%;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+#pbasspic{
+    margin-left: 2%;
+    padding:1%;
+    border: 3px solid white;
+    border-radius: 1%;
+    
+}
+
+div#pbass {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top:3%;
+    margin-bottom:3%;
+    padding: 0 5% 3% 5%;
+    text-align: justify;
+}
+
+    #jbasspic{
+        margin-right: 2%;
+        margin-bottom:3%;
+        padding:1%;
+        border: 3px solid white;
+        border-radius: 1%;
+        
+        
+    }
+    
+    div#jbass {
+        max-width: 1500px;
+        margin: 0 auto;
+        margin-top:3%;
+        margin-bottom:3%;
+        padding: 0 5% 3% 5%;
+        text-align: justify;
+    }
