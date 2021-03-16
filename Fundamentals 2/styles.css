@@ -1,0 +1,46 @@
+body {
+    background-image: url(images/code.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color:  rgb(238, 221, 65);
+    border: 8px solid white;
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+table {
+    
+    border: 8px solid white;
+    border-collapse: collapse;
+    background-color: rgb(238, 221, 65);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    height: auto;
+    width: 60%;
+}
+
+.tablesubtitle {
+text-decoration: underline;
+}
+
+th {
+    font-style: oblique;
+    border: 3px solid rgb(238, 236, 236);
+    padding: 5px 10px;
+}
+
+td {
+    border: 3px solid rgb(238, 236, 236);;
+    padding: 5px 10px;
+}
+.links {
+    margin-top: 3%;
+}
