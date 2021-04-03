@@ -140,11 +140,14 @@
             game();
 
             if (playerScore === computerScore) {
-                return "It's a tie";
+                result = "It's a tie";
+                console.log(result);
             } else if (playerScore > computerScore) {
-                return "You made it! You went against the fearless machines and survived!";
+                result = "You made it! You went against the fearless machines and survived!";
+                console.log(result);
             } else
-                return "You lost! The machines shall persevere for the rest of eternity!";
+            result = "You lost! The machines shall persevere for the rest of eternity!";
+             console.log(result);
         }
 
         addScores();
