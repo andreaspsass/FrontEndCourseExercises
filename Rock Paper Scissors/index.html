@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="a rock paper scissors webpage created for study purposes" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RRRRRRRRRRRROSHAAAAAAAAAAAMMMMMMMMMMBBBBBBOOOOOOOOOOOOOOOOOO</title>
+</head>
+
+<body>
+    <script>
+        function computerPlay() {
+            let computerRandomNumber = Math.floor(Math.random() * 3);
+
+            if (computerRandomNumber === 0) {
+                return "rock";
+            } else if (computerRandomNumber === 1) {
+                return "paper";
+            } else computerRandomNumber === 2;
+            return "scissors";
+        }
+
+        let playerScore = 0;
+        let computerScore = 0;
+        let draw = 0;
+
+        function playRound() {
+            let computerSelection = computerPlay();
+            let playerSelection = prompt(
+                "What will it be? Rock? Perhaps, Paper? or maybe Scissors? Choose wisely..."
+            ).toLowerCase();
+
+            console.log("Player Selection is " + playerSelection);
+            console.log("Computer Selection is " + computerSelection);
+
+            if (playerSelection === "rock" && computerSelection === "rock") {
+                draw++;
+
+                result = "It's a tie! Ties are lame and so are you for tying.";
+                console.log(result);
+            } else if (
+                playerSelection === "rock" &&
+                computerSelection === "paper"
+            ) {
+                computerScore++;
+
+                result =
+                    "Loooooser looooser nia nia nia! Paper wrapped your rock and threw it in the bin!";
+                console.log(result);
+            } else if (
+                playerSelection === "rock" &&
+                computerSelection === "scissors"
+            ) {
+                playerScore++;
+
+                result = "Bravoooo you made it! Rock smashed the scissors! ";
+                console.log(result);
+            } else if (
+                playerSelection === "paper" &&
+                computerSelection === "rock"
+            ) {
+                playerScore++;
+
+                result =
+                    "Bravoooo you made it! Paper wrapped the rock and threw it in the bin! ";
+                console.log(result);
+            } else if (
+                playerSelection === "paper" &&
+                computerSelection === "paper"
+            ) {
+                draw++;
+
+                result = "It's a tie! Ties are lame and so are you for tying. ";
+                console.log(result);
+            } else if (
+                playerSelection === "paper" &&
+                computerSelection === "scissors"
+            ) {
+                computerScore++;
+
+                result =
+                    "Loooooser looooser nia nia nia! Scissors cut through your paper and made it look like an ugly origami swan";
+                console.log(result);
+            } else if (
+                playerSelection === "scissors" &&
+                computerSelection === "rock"
+            ) {
+                computerScore++;
+
+                result =
+                    "Loooooser looooser nia nia nia! Rock smashed the scissors. ";
+                console.log(result);
+            } else if (
+                playerSelection === "scissors" &&
+                computerSelection === "paper"
+            ) {
+                playerScore++;
+
+                result =
+                    "Bravoooo you made it! Scissors cut through paper and made it look like an ugly origami swan";
+                console.log(result);
+            } else if (
+                playerSelection === "scissors" &&
+                computerSelection === "scissors"
+            ) {
+                draw++;
+                result = "It's a tie! Ties are lame and so are you for tying. ";
+                console.log(result);
+            } else return "Go home you are drunk";
+        }
+
+        function game() {
+            playRound();
+
+            console.log("Player Score is " + playerScore);
+            console.log("Computer Score is " + computerScore);
+            console.log("Number of draws are " + draw);
+
+            playRound();
+            console.log("Player Score is " + playerScore);
+            console.log("Computer Score is " + computerScore);
+            console.log("Number of draws are " + draw);
+            playRound();
+            console.log("Player Score is " + playerScore);
+            console.log("Computer Score is " + computerScore);
+            console.log("Number of draws are " + draw);
+            playRound();
+            console.log("Player Score is " + playerScore);
+            console.log("Computer Score is " + computerScore);
+            console.log("Number of draws are " + draw);
+            playRound();
+            console.log("Player Score is " + playerScore);
+            console.log("Computer Score is " + computerScore);
+            console.log("Number of draws are " + draw);
+        }
+
+        function addScores() {
+            game();
+
+            if (playerScore === computerScore) {
+                result = "It's a tie";
+                console.log(result);
+            } else if (playerScore > computerScore) {
+                result = "You made it! You went against the fearless machines and survived!";
+                console.log(result);
+            } else
+            result = "You lost! The machines shall persevere for the rest of eternity!";
+             console.log(result);
+        }
+
+        addScores();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="JavaScript practice for study purposes">
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+    let a = 10;
+    console.log(a)
+    let b = 7 * a
+    console.log(b)
+    const max = 57;
+    const actual = max -13;
+    const percentage = actual / max;
+    const VAT = 24;    // VAT Tax is set to 24%
+    const phone = 30; // Net price
+    const electricity = 100;
+    const water = 50;
+    const petrol = 70;
+    const totalPhone = phone + ( phone * ( VAT / 100 ) ); // Total === net price + VAT
+    const totalElectricity  = electricity + ( electricity * ( VAT / 100 ) );
+    const totalWater  = water + ( water * ( VAT / 100 ) );
+    const totalPetrol = petrol + (petrol * ( VAT / 100));
+    const dreadfulBills = totalPhone + totalElectricity + totalWater + totalPetrol;
+
+  </script>
+</body>
+</html>
