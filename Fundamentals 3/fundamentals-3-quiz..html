@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment of Fundamentals Part 3">
+    <title>Fundamentals Part 3</title>
+</head>
+
+<body>
+    <script>
+        // 1) Type of function?         (Function Declaration)
+        function add7() {
+            var number = prompt("Choose a number and I will add 7 to it");
+            var NewNumber = 7 + parseInt(number);
+            return (NewNumber);
+        }
+        // type add7(); to the console log and place the number you desire on the placeholder
+
+
+
+        // 2) Type of function?         (Function Expression)
+        const multiply = function (electricityPrice, tax) {
+            return electricityPrice * tax;
+        }
+        // type the variable below on the console log, it should display 17.6
+
+        let taxOfElectricity = multiply(88, 0.2);
+
+
+        // 3) Type of function?          (Function Arrow))
+        let capitalize = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+        console.log(capitalize('random')); // this should display Random, try with a different word
+        // using console.log(capitalize('tyPe Whatever yOu LIKE')); <-- should display TyPe Whatever yOu LIKE
+
+
+
+        // 4) Type of function?          (Function Declaration)
+        function lastLetter(string) {
+           return string.slice(-1);
+        }
+
+        console.log(lastLetter('Throw me a bone')) // this should display the letter 'e'
+        // again you can use the above console log with whatever else inside and it will
+        // display the last letter
+    </script>
+</body>
+
+</html>

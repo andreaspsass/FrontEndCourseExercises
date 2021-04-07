@@ -1,0 +1,60 @@
+troubleshooting
+function troubleshooting() {
+	const a = 1;
+	const b = 1;
+
+	// Edit between these lines
+	// =================================
+	return  a + b;
+
+	// =================================
+}
+
+
+enter a number
+
+number = Number(prompt("enter a number"));
+
+function numberChecker() {
+	if(number >= 10) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+let's do some math
+
+const a = 1 + 8
+const b = 22 * 3
+const c = 5 % 4  ;
+const d = a - 17;
+const e = a + b + c + d
+
+module.exports = {a, b, c, d, e}
+
+direction-follow
+
+Step 2 //
+const birthYear = 1948;
+const  thisYear = 1965;
+let firstName = "Carlos" ;
+let lastName = "Stevenson" ;
+
+let greeting = "Hello! My name is" + " " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " " + "years old."
+
+console.log(greeting)
+
+Step 3 //
+const birthYear = 1948;
+const  thisYear = 1965;
+const age = thisYear - birthYear ;
+let firstName = "Carlos" ;
+let lastName = "Stevenson" ;
+let fullName = firstName + " " + lastName ;
+
+let greeting = "Hello! My name is" + " " + fullName + " and I am " + age + " " + "years old."
+
+console.log(greeting)
+
